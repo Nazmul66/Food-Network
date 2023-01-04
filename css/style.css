@@ -1,0 +1,114 @@
+/*====================
+      Google Fonts
+  ====================*/
+ @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/*====================
+       Global css
+  ====================*/
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Montserrat', sans-serif;
+}
+span{
+   font-family: 'Manrope', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+
+/*====================
+     Banner section
+  ====================*/
+.banner-section{
+  padding: 85px 0;
+}
+.banner-section h1{
+	font-size: 52px;
+	color: #575757;
+	font-weight: 700;
+}
+.banner-section h1 label{
+	color: #FBA24F;
+}
+.banner-section p{
+	margin-top: 60px;
+	color: #828282;
+	font-weight: 500;
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+.banner-section .btn-dash{
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(to right,#FBA24F, #FF1E1E);
+    padding: 20px 50px;
+    border-radius: 110px;
+    box-shadow: 0px 0px 20px #fba24f;	
+}
+.banner-section img{
+	width: 100%;
+}
+
+/*====================
+     Banner section
+  ====================*/
+.about-section{
+    background: url(../image/bg-img.jpg) no-repeat center top;
+    background-size: cover;
+    padding: 85px 0 0; 
+}
+.about-section img{
+   width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+.about-section h1{
+    font-size: 40px;
+    text-transform: capitalize;
+    color: #707070;
+    font-weight: 700;
+    margin-bottom: 35px; 
+}
+.about-section span{
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    color: #18191F;
+    padding-right: 104px;
+    line-height: 33px;
+    margin-bottom: 90px;
+}
+.about-section .btn-kash{
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(to right,#FF1E1E, #FBA24F );
+    padding: 20px 50px;
+    border-radius: 110px;
+    box-shadow: 0px 0px 20px #fba24f;	
+}
+
+/*====================
+     Footer section
+  ====================*/
+footer{
+  background: #0B0D17;
+  padding: 40px 0 80px;
+}
+footer img{
+    display: block;
+    margin: 0 auto;	
+}
+footer p{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #fff;
+}
